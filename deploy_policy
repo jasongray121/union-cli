@@ -1,0 +1,8 @@
+# deploy_policy.toml
+[group]
+name = "core-devs"
+members = ["0x1...", "0x2..."]
+
+[policy]
+action = "merge-pr"
+threshold = 0.66
